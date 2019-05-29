@@ -64,8 +64,7 @@ def main():
     parse = argparse.ArgumentParser(
         description='Get top questions at stackoverflow')
 
-    parse.add_argument('n', action='store',
-                       type=int,
+    parse.add_argument('n', action='store', type=int,
                        help='Amount of questions need to get')
     parse.add_argument('tag', action='store',
                        help='Questions tag need to get')
